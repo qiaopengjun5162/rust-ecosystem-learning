@@ -1,3 +1,1 @@
-mod error;
-
-pub use error::MyError;
+//! 空文件占位符
