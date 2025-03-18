@@ -1,0 +1,3 @@
+[toolchain]
+channel = "stable"                        # 固定稳定版
+components = ["rustc", "cargo", "clippy"] # 按需安装组件
