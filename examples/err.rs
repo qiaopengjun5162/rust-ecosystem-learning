@@ -55,8 +55,7 @@ fn main() -> Result<(), anyhow::Error> {
     println!("size of MyError: {}", size_of::<MyError>());
 
     let filename = "non_existent_file.txt";
-    let _fd =
-        fs::File::open(filename).with_context(|| format!("Can not find file: {}", filename))?;
+    let _fd = fs::File::open(filename).with_context(|| format!("Can not find file: {filename}"))?;
 
     fail_with_error()?;
     Ok(())

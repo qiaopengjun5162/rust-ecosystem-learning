@@ -1,2 +1,18 @@
 ### index handler
 GET http://localhost:8080/ HTTP/1.1
+
+### update_handler
+PATCH http://localhost:8081/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "skills": ["Go", "Python", "Java"]
+}
+
+### minginx
+GET http://localhost:8081/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "minginx"
+}

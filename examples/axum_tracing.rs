@@ -1,16 +1,16 @@
 use std::time::Duration;
 
-use axum::{routing::get, Router};
+use axum::{Router, routing::get};
 use tokio::{
     net::TcpListener,
-    time::{sleep, Instant},
+    time::{Instant, sleep},
 };
 use tracing::{debug, info, instrument, level_filters::LevelFilter, warn};
 use tracing_subscriber::{
+    Layer,
     fmt::{self, format::FmtSpan},
     layer::SubscriberExt,
     util::SubscriberInitExt,
-    Layer,
 };
 
 #[tokio::main]
