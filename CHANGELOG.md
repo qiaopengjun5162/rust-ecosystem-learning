@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [0.1.4-chat](https://github.com/qiaopengjun5162/rust-ecosystem-learning/compare/v0.1.3-tokio-proxy-axum-serde..v0.1.4-chat) - 2025-07-13
+
+### Features
+
+- tcp chat server and loom test tool - ([99c4c9d](https://github.com/qiaopengjun5162/rust-ecosystem-learning/commit/99c4c9ddc5f6f064ca0f801e13ea91664a5b72d6)) - qiaopengjun5162
+
+---
+## [0.1.3-tokio-proxy-axum-serde](https://github.com/qiaopengjun5162/rust-ecosystem-learning/compare/v0.1.2-bytes..v0.1.3-tokio-proxy-axum-serde) - 2025-07-03
+
+### Features
+
+- introduce tokio and build a proxy and axum serde - ([647c85e](https://github.com/qiaopengjun5162/rust-ecosystem-learning/commit/647c85eadfc5069e35612ba0b24523b20d35681c)) - qiaopengjun5162
+
+---
+## [0.1.2-bytes](https://github.com/qiaopengjun5162/rust-ecosystem-learning/compare/v0.1.1-tracing..v0.1.2-bytes) - 2025-07-02
+
+### Features
+
+- introduce bytes - ([35ec687](https://github.com/qiaopengjun5162/rust-ecosystem-learning/commit/35ec6877f733f34785aa4334a712f4b8937ce20e)) - qiaopengjun5162
+
+---
+## [0.1.1-tracing](https://github.com/qiaopengjun5162/rust-ecosystem-learning/compare/v0.1.0-anyhow-thiserror..v0.1.1-tracing) - 2025-03-18
+
+### Features
+
+- introduce tracing & tracing-subscriber (#2) - ([9f77fb6](https://github.com/qiaopengjun5162/rust-ecosystem-learning/commit/9f77fb6e25e0997d84c47467a3392185d00f6d5b)) - Paxon Qiao 乔鹏军
+
+---
 ## [0.1.0-anyhow-thiserror] - 2025-02-13
 
 ### Features
